@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 .container{
@@ -142,4 +143,41 @@ footer>p{
     position: relative;
     top: 5rem;
     font-size: 1.10rem;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .div3 {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .div3 div img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+    }
+
+    .div3 p {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .div4>p {
+        width: 90%;
+    }
+
+    footer>div {
+        flex-direction: column;
+        text-align: center;
+    }
 }
