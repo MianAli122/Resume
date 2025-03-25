@@ -150,10 +150,6 @@ footer>p{
 
 
 @media (max-width: 768px) {
-    .container {
-        height: auto;
-        padding: 2rem 1rem;
-    }
 
     .div3 {
         flex-direction: column;
